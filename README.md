@@ -10,3 +10,5 @@ Added Assets
 Simple Player Movements Added
 
 Weapon Object Created
+
+Wepaon Shooting Mechanics Completed
