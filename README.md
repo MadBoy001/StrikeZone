@@ -12,3 +12,5 @@ Simple Player Movements Added
 Weapon Object Created
 
 Wepaon Shooting Mechanics Completed
+
+Weapon Ammo Mechanics Added
