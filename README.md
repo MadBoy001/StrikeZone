@@ -18,3 +18,5 @@ Weapon Ammo Mechanics Added
 Weapon Mechanics Completed
 
 Player Status Bar Completed
+
+Match HUD Completed
