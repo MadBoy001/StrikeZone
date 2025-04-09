@@ -22,3 +22,5 @@ Player Status Bar Completed
 Match HUD Completed
 
 Multiplayer Mechanics Completed
+
+Elimination Mechanics Completed
