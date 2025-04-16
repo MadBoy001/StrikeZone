@@ -24,3 +24,5 @@ Match HUD Completed
 Multiplayer Mechanics Completed
 
 Elimination Mechanics Completed
+
+Added Halo to Top Scorer
