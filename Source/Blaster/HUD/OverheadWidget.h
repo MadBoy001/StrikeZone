@@ -13,7 +13,6 @@ UCLASS()
 class BLASTER_API UOverheadWidget : public UUserWidget
 {
 	GENERATED_BODY()
-	
 public:
 	UPROPERTY(meta = (BindWidget))
 	class UTextBlock* DisplayText;
@@ -24,5 +23,6 @@ public:
 	void ShowPlayerNetRole(APawn* InPawn);
 
 protected:
-	virtual void NativeDestruct() override;
+	virtual void OnLevelRemovedFromWorld(ULevel* InLevel, UWorld* InWorld) override;
+
 };

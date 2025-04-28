@@ -16,7 +16,6 @@ void UOverheadWidget::ShowPlayerNetRole(APawn* InPawn)
 {
 	ENetRole RemoteRole = InPawn->GetRemoteRole();
 	FString Role;
-
 	switch (RemoteRole)
 	{
 	case ENetRole::ROLE_Authority:
@@ -36,12 +35,8 @@ void UOverheadWidget::ShowPlayerNetRole(APawn* InPawn)
 	SetDisplayText(RemoteRoleString);
 }
 
-void UOverheadWidget::NativeDestruct()
-
+void UOverheadWidget::OnLevelRemovedFromWorld(ULevel* InLevel, UWorld* InWorld)
 {
-
 	RemoveFromParent();
-
-	Super::NativeDestruct();
-
+	Super::OnLevelRemovedFromWorld(InLevel, InWorld);
 }
